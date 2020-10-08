@@ -1,0 +1,91 @@
+
+ 
+.cliente{
+
+  margin: 17px;
+  border: 1px solid #e17fae;
+  -webkit-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  -moz-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  box-shadow: 2.5px 3px 5px 0px rgba(0, 0, 0, 0.357);
+
+
+
+}
+
+.h {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: #e17fae;
+  -webkit-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  -moz-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  box-shadow: 2.5px 3px 5px 0px rgba(0, 0, 0, 0.357);
+}
+
+.himg {
+  text-align: center;
+  width: 40px;
+}
+
+.bimg {
+  width: 25px;
+  position: absolute;
+  left: 15px;
+  top: 4px;
+}
+
+.pimg {
+  position: absolute;
+  width: 150px;
+}
+
+.carro {
+  position: absolute;
+  right: 0.5cm;
+}
+
+.s {
+  padding: 5px;
+  text-align: center;
+  position: absolute;
+  bottom: -45px;
+  margin: auto;
+  background-color: white;
+  border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -webkit-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  -moz-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  box-shadow: 2.5px 3px 5px 0px rgba(0, 0, 0, 0.357);
+  border: 0.5px solid #707070;
+}
+
+.a {
+  border-color: #707070;
+  -webkit-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  -moz-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  box-shadow: 2.5px 3px 5px 0px rgba(0, 0, 0, 0.357);
+  width: 350px;
+  height: 420px;
+}
+
+
+
+#search {
+  border: 0px;
+}
+
+
+#groceries{
+
+padding: 0px;
+margin-left: 10px;
+display: inline-block;
+}
+
+
+#groceries2{
+
+  padding: 0px;
+  margin: 10px;
+  display: auto;
+  }

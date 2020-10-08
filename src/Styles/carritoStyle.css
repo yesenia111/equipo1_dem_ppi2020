@@ -1,0 +1,60 @@
+#Carritojp {
+  margin: 90px;
+
+  border: 1px solid #e17fae;
+  -webkit-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  -moz-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  box-shadow: 2.5px 3px 5px 0px rgba(0, 0, 0, 0.357);
+}
+
+.cantidad {
+  font-size: 10px;
+  color: gray;
+}
+
+#continuar {
+  align-items: center;
+  background-color: #e17fae;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: -25px;
+  width: 200px;
+  height: 40px;
+  border-color: #707070;
+}
+
+#vaciarCarrito {
+  margin-top: 40px;
+  width: 150px;
+  height: 40px;
+  align-items: center;
+  border-color: #e17fae;
+  background-color: rgb(233, 159, 195);
+  border-radius: 15px;
+}
+
+#enjuagueCarrito {
+  width: 70px;
+  height: 100px;
+}
+#JamondepiernaCarrito {
+  width: 100px;
+  height: 100px;
+}
+
+#MonsterCarrito {
+  width: 130px;
+  height: 130px;
+}
+
+.botonCarrito {
+  border-color: #e17fae;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.carritoTitulo {
+  margin-left: 75px;
+}
+
+

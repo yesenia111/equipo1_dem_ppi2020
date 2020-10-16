@@ -1,0 +1,30 @@
+
+
+
+
+
+
+       <div className="container-fluid " id="fondo">
+        <div className="row">
+          <div className="h col-sm-12 col-md-12 col-lg-12" >
+            <header className="head">
+              <Nav />
+            </header>
+          </div>
+          
+          <h2 className="carritoTitulo">Carrito </h2>
+       
+          <div className="container" id="CarritoYY"> 
+            <p id="texto">Para hacer uso del carrito primero debes iniciar sesión</p>
+          <figure>
+                  <img src={carritoAnonimo} id="Carrito"/>
+                </figure>
+         <button type="button" className="btn btn-ligh" id="boton">
+                    Inicia sesión
+                  </button>
+ </div> 
+              
+                 
+                </div>
+ <Menu />
+              </div>

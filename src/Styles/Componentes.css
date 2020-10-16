@@ -1,0 +1,199 @@
+.titulos {
+  margin-top: 20px;
+  margin-left: 20px;
+ 
+}
+
+.añadir {
+  width: 25px;
+  bottom: 0.1cm;
+  position: absolute;
+  right: 0.1cm;
+}
+
+
+#menu{
+justify-content: center;
+margin: auto;
+
+
+}
+
+.casa {
+  width: 40px;
+  margin: auto;
+  
+}
+
+hr {
+  -webkit-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  -moz-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  box-shadow: 2.5px 3px 5px 0px rgba(0, 0, 0, 0.357);
+}
+
+
+
+
+.card{
+
+width: 250px;
+position: relative;
+margin: auto;
+margin-top: 25px;
+
+
+
+}
+
+
+.contenedor{
+width: auto;
+ height: 400px;
+ overflow-y: hidden; 
+ overflow-x: auto;
+  margin: 10px;
+  padding: 0;
+    border-radius: 4px;
+    border: 1px solid #e17fae;
+    white-space: nowrap;
+
+}
+
+
+
+
+.contenedor::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.contenedor::-webkit-scrollbar:vertical {
+  width:8px;
+}
+
+.contenedor::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+  display: none;
+} 
+
+.contenedor::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.contenedor::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 10px;
+  border: 2px solid #f1f2f3;
+}
+
+.contenedor::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}
+
+.contenedor2{
+  width: auto;
+   height: 400px;
+   overflow-y: auto; 
+   overflow-x: auto;
+    margin: 10px;
+    padding: 0;
+      border-radius: 4px;
+      border: 1px solid #e17fae;
+      white-space: nowrap;
+  
+  }
+  
+  
+  
+  
+  .contenedor2::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  
+  .contenedor2::-webkit-scrollbar:vertical {
+    width:8px;
+  }
+  
+  .contenedor2::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+  } 
+  
+  .contenedor2::-webkit-scrollbar:horizontal {
+    height: 10px;
+  }
+  
+  .contenedor2::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 10px;
+    border: 2px solid #f1f2f3;
+  }
+  
+  .contenedor2::-webkit-scrollbar-track {
+    border-radius: 10px;  
+  }
+  
+
+  .botonEditar{
+    background-color:white;
+    border-color: white;
+   
+  }
+
+#tituloModProd{
+  margin-left: 45px;
+}
+
+.textAreaMod{
+  border-color: #e17fae;
+}
+
+.info{
+
+width: 85%;
+  
+  }
+
+  #tipo{
+
+    padding: 5px;
+    margin-right: 20px;
+    display: inline-block;
+    
+    
+    }
+
+
+    #pago1{
+ 
+      align-items: center;
+      background-color: #971E58;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 25px;
+      width: 130px;
+      height: 40px;
+      border-color: #707070;
+      color: white;
+      border-radius: 20px;
+    }
+
+    #pago2{
+ 
+      align-items: center;
+      background-color: #ffffff;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 25px;
+      width: 150px;
+      height: 40px;
+      border-color: #A23669;
+     border-width: 4px;
+      color: black;
+      border-radius: 20px;
+    }
+    
+
+    #datosCompra{
+
+margin: 10px;
+margin-right: 35px;
+
+    }

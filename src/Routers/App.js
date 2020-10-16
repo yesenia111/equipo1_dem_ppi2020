@@ -12,6 +12,7 @@ import Perfil from "../Pages/perfil";
 import PerfilAnonimo from "../Pages/perfilAnonimo";
 import editar from "../Pages/editar";
 import Confirmar from "../Pages/confirmarDatos";
+import Realizado from "../Pages/realizado";
 import datos from "../Server/datos.json";
 import ModificarProductos from "../Pages/modificarProductos"
 
@@ -33,6 +34,7 @@ const App = () => {
         <Route exact path="/anonimo" component={anonimo} />
         <Route exact path="/CarritoAnonimo" component={CarritoAnonimo} />
         <Route exact path="/confirmar" component={Confirmar} />
+        <Route exact path="/realizado" component={Realizado} />
         <Route exact path="/perfil" component={Perfil} />
         <Route exact path="/perfilAnonimo" component={PerfilAnonimo} />
         <Route exact path="/perfilTendero" component={PerfilTendero} />

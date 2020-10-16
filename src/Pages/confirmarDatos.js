@@ -147,8 +147,13 @@ class Confirmar extends React.Component {
                 <img src={Entrega} class="user" alt="Responsive image" />
                 <p>Tiempo de entrega extimado:</p>
                 <p>50 min.</p>
-
-            
+             <center>   <Link to="/realizado">
+                    {" "}
+                    <button type="button" class="btn" id="cerrar">
+                      Continuar
+                    </button>{" "}
+                  </Link>
+                  </center>
               </div>
               <div class="col-sm-3"> </div>
             </div>

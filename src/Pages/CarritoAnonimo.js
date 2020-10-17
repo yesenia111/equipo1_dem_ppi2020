@@ -26,7 +26,7 @@ class  carritoA extends React.Component {
             <div class="col-sm-8">
             
            <center> <h2 className="titulos">Para hacer uso del carrito primero debes iniciar sesión</h2></center>
-           <center><img src={CarritoAnonimo} class="carroanonimo" alt="Fondo" /></center>
+           <center><img src={CarritoAnonimo} class="carroanonimo" alt="Fondo" id="imagenresponsive"/></center>
 
 <br/>
 

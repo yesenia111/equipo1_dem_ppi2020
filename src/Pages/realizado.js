@@ -23,7 +23,7 @@ class Confirmar extends React.Component {
 
               <div class="col-sm-6 contenido ">
 
-              <img src={Domicilio} class="" alt="Responsive image" />
+              <img src={Domicilio} class="" alt="Responsive image" id="imagenresponsive"/>
 
              <center> <p>Tu pedido va en camino. Tiempo estimado: 50 min.
               </p></center>

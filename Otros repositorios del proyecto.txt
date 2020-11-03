@@ -1,0 +1,3 @@
+Frontend https://github.com/yesenia111/equipo1_dem_ppi2020.git
+Backend https://github.com/JuanPabloRP/backendTiendaAhorro.git
+Imagines y otros archivos: https://github.com/Caponauta/imagenesPPI.git

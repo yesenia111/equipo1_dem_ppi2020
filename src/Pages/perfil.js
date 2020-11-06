@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../Components/nav";
 import usuario from "../Images/usuario.png";
-import ajustes from "../Images/ajustes.png";
+
 import Menu from "../Components/menu.js";
 import Reporte from "../Components/reporte.js";
 import Historial from "../Components/historial"
@@ -28,7 +28,7 @@ class Perfil extends React.Component {
               </div>
 
               <div class="col-sm-6 contenido ">
-              <img src={usuario} class="user" alt="Responsive image" />  <img src={ajustes} class="ajustes" alt="Responsive image" />
+              <img src={usuario} class="user" alt="Responsive image" /> 
                 <br />
                 <br/>
                 <p> Vinculado con </p>
@@ -45,39 +45,26 @@ class Perfil extends React.Component {
                   type="txt"
                   id="buscarperfil"
                   name="search"
-                  Value="Nombre"
+                  placeholder="Nombre"
                   readonly="readonly"
                 />
                 <input className="campo"
                   type="txt"
                   id="buscarperfil"
-                  name="search"
-                  Value="Barrio"
+                  name="barrio"
+                  placeholder="Barrio"
                 />
                 <br /> <br />
                 <p> Dirección </p>
-                <select name="direccion" className="campo">
-                  <option>Calle</option>
-                  <option>Carrera</option>
-                  <option>Diagonal</option>
-                  <option>Circunvalar</option>
-                  <option>Peatonal</option>
-                </select>
-                <input
-                  type="txt"
-                  id="buscarperfil"
-                  name="search"
-                  Value="101 B"
-                  className="text"
-                />
-                <text> # </text>
-                <input
-                  type="txt"
-                  id="buscarperfil"
-                  name="search"
-                  Value="77 C - 25 "
-                  className="text"
-                />
+                <div class="campo">
+             
+                  <input
+                    type="text"
+                    class="campo"
+                    id="inputAddress"
+                    placeholder="Dirección actual"
+                  />
+                </div>
                 <br />
                 <br />
                 <center>

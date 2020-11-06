@@ -6,6 +6,9 @@ import AtrasTendero from "../Components/atrasTendero"
 import EditarInformacionP from "../Components/editarInformacionP";
 import ModProducto from "../Components/modProducto"
 import Componentes from "../Styles/Componentes.css"
+import monster from "../Images/Monster.png";
+import lapiz from "../Images/lapiz.png";
+
 
 
 
@@ -39,7 +42,10 @@ class ModificarProductos extends React.Component {
                   
                     
                         <div class="col-sm" id="groceries2">
-                         <ModProducto />
+                        
+  
+                        
+                        <ModProducto />
 
                          
                         </div>

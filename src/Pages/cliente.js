@@ -35,7 +35,7 @@ class Cliente extends React.Component {
                   />
                 </a>
                 <div className="row">
-                  <div className="s col-sm-4 col-md-12 col-lg-4 ">
+                  <div className="s col-sm-4 col-md-4 col-lg-4 " id="s">
                     <img
                       src={buscar}
                       class=" bimg"

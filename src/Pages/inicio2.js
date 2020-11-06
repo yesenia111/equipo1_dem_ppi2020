@@ -17,17 +17,24 @@ class Inicio2 extends React.Component {
               <p>¿Cómo quieres iniciar sesión?</p>
 
               <Link to="Cliente">
-              <button type="button" className="bot btn btn-ligh">
-                Google
-              </button>
+                <button type="button" className="bot btn btn-ligh">
+                  Google
+                </button>
               </Link>
               <br />
               <button type="button" className="bot btn btn-ligh">
                 Facebook
               </button>
               <br />
+
+              <Link to="inicioC">
+                <button type="button" className="bot btn btn-ligh">
+                  Correo
+                </button>
+              </Link>
+              <br />
               <Link to="/">
-                <p className="back">Volver</p>
+                <a className="back">Volver</a>
               </Link>
             </div>
 

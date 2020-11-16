@@ -15,11 +15,6 @@ import Confirmar from "../Pages/confirmarDatos";
 import Realizado from "../Pages/realizado";
 import datos from "../Server/datos.json";
 import ModificarProductos from "../Pages/modificarProductos";
-import Registro from "../Pages/registro";
-import registroCliente from "../Pages/registroCliente";
-import correoCliente from "../Pages/correoCliente";
-import correoTendero from "../Pages/correoTendero";
-import registroTendero from "../Pages/registroTendero";
 
 
 
@@ -30,16 +25,14 @@ const App = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Inicio} />
-        <Route exact path="/registro" component={Registro}/>
-        <Route exact path="/registroC" component={registroCliente}/>
-        <Route exact path="/inicioC" component={correoCliente}/>
+    
         
 
         <Redirect from="/Inicio" to="/Inicio2" />
         <Route exact path="/inicio2" component={Inicio2} />
         <Route exact path="/inicio3" component={Inicio3} />
-        <Route exact path="/registroT" component={registroTendero}/>
-        <Route exact path="/inicioT" component={correoTendero}/>
+  
+    
         <Redirect from="/Inicio2" to="/Inicio" />
         <Route exact path="/tendero" component={Tendero} />
         <Route exact path="/cliente" component={Cliente} />

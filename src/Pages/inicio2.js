@@ -13,29 +13,25 @@ class Inicio2 extends React.Component {
             <div className="col-sm-4 col-md-4 col-lg-3"> </div>
 
             <div className="col-sm-4 col-md-4 col-lg-6">
-              <img src={Logo} class="logo" alt="Logo" />
+              <img src={Logo} className="logo" alt="Logo" />
               <p>¿Cómo quieres iniciar sesión?</p>
 
-              <Link to="Cliente">
-                <button type="button" className="bot btn btn-ligh">
-                  Google
-                </button>
-              </Link>
+              <div className="g-signin2 btn" data-onsuccess="onSignIn"></div>
               <br />
+          
+              <a href="" onClick="signOut();">Salir</a>
+              
+              <br />
+              <Link to="Cliente">
               <button type="button" className="bot btn btn-ligh">
                 Facebook
               </button>
+              </Link>
               <br />
 
-              <Link to="inicioC">
-                <button type="button" className="bot btn btn-ligh">
-                  Correo
-                </button>
-              </Link>
-              <br />
-              <Link to="/">
-                <a className="back">Volver</a>
-              </Link>
+            
+                <a  href="/" className="back">Volver</a>
+            
             </div>
 
             <div className="col-sm-4 col-md-4 col-lg-3 "></div>

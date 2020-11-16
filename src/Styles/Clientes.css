@@ -42,12 +42,16 @@
   right: 0.5cm;
 }
 
+
+
 .s {
-  padding: 5px;
+justify-content: center;
+  padding: 4px;
   text-align: center;
   position: absolute;
   bottom: -45px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color: white;
   border-radius: 4px 4px 4px 4px;
   -moz-border-radius: 4px 4px 4px 4px;

@@ -16,9 +16,7 @@ class Inicio3 extends React.Component {
               <img src={Logo} class="logo" alt="Logo" />
               <p>¿Cómo quieres iniciar sesión?</p>
 
-              <button type="button" className="bot btn btn-ligh">
-                Google
-              </button>
+              <div className="g-signin2 btn" data-onsuccess="onSignIn"></div>
               <br />
 
               <Link to="/tendero">
@@ -26,12 +24,8 @@ class Inicio3 extends React.Component {
                   Facebook
                 </button>
               </Link>
-              <br />
-              <Link to="inicioT">
-                <button type="button" className="bot btn btn-ligh">
-                  Correo
-                </button>
-              </Link>
+              
+            
 
               <br />
               <Link to="/">

@@ -66,10 +66,11 @@ class Perfil extends React.Component {
                   />
                 </div>
                 <br />
+                
                 <br />
                 <center>
          
-
+                <a href="/" onClick="signOut();">Salir</a>
                 </center>
                 <hr />
                

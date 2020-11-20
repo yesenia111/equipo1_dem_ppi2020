@@ -4,7 +4,10 @@ import Logo from "../Images/Logo.png";
 import datos from "../Server/datos.json";
 import estilo from "../Styles/inicio.css";
 
+
 class Inicio2 extends React.Component {
+  
+
   render() {
     return (
       <div className="Inicio">
@@ -16,14 +19,18 @@ class Inicio2 extends React.Component {
               <img src={Logo} className="logo" alt="Logo" />
               <p>¿Cómo quieres iniciar sesión?</p>
 
-              <div className="g-signin2 btn" data-onsuccess="onSignIn"></div>
+              <button className="g-signin2 btn" data-onsuccess="onSignIn">
+
+              </button>
               <br />
           
-              <a href="" onClick="signOut();">Salir</a>
+             
               
               <br />
-              <Link to="Cliente">
-              <button type="button" className="bot btn btn-ligh">
+              
+
+            <Link to="Cliente">
+              <button onClick="onLogin();" type="button" className="bot btn btn-ligh">
                 Facebook
               </button>
               </Link>

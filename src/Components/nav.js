@@ -5,7 +5,7 @@ class Nav extends React.Component {
   render() {
     return (
       <div class="nav" id="fondo3">
-        <a href="/">
+        <a href="/cliente">
           <img src={atras} class=" himg" alt="Back" />
         </a>
       </div>

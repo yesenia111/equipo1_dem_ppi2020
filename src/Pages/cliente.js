@@ -16,7 +16,7 @@ class Cliente extends React.Component {
           <div className="row">
             <div className="h col-sm-12 col-md-12 col-lg-12 " id="fondo2">
               <header className="head">
-                <a href="/">
+                <a href="/Cliente">
                   <img
                     src={atras}
                     class=" himg"

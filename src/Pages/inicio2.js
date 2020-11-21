@@ -1,14 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logo.png";
-import datos from "../Server/datos.json";
 import estilo from "../Styles/inicio.css";
+import Reg_log from  "../Components/reg_log.js"
 
-
-class Inicio2 extends React.Component {
+ 
+ function Inicio2()  {
   
 
-  render() {
     return (
       <div className="Inicio">
         <div className="container-fluid">
@@ -19,9 +18,7 @@ class Inicio2 extends React.Component {
               <img src={Logo} className="logo" alt="Logo" />
               <p>¿Cómo quieres iniciar sesión?</p>
 
-              <button className="g-signin2 btn" data-onsuccess="onSignIn">
-
-              </button>
+             
               <br />
           
              
@@ -30,9 +27,7 @@ class Inicio2 extends React.Component {
               
 
             <Link to="Cliente">
-              <button onClick="onLogin();" type="button" className="bot btn btn-ligh">
-                Facebook
-              </button>
+
               </Link>
               <br />
 
@@ -46,6 +41,6 @@ class Inicio2 extends React.Component {
         </div>
       </div>
     );
-  }
 }
+
 export default Inicio2;

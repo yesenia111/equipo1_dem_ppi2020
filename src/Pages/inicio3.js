@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logo.png";
-import datos from "../Server/datos.json";
 import estilo from "../Styles/inicio.css";
 
 class Inicio3 extends React.Component {

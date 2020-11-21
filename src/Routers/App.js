@@ -13,7 +13,7 @@ import PerfilAnonimo from "../Pages/perfilAnonimo";
 import editar from "../Pages/editar";
 import Confirmar from "../Pages/confirmarDatos";
 import Realizado from "../Pages/realizado";
-import datos from "../Server/datos.json";
+
 import ModificarProductos from "../Pages/modificarProductos";
 import PerfilTendero from "../Pages/perfilTendero";
 

@@ -15,9 +15,6 @@ import Confirmar from "../Pages/confirmarDatos";
 import Realizado from "../Pages/realizado";
 import datos from "../Server/datos.json";
 import ModificarProductos from "../Pages/modificarProductos";
-
-
-
 import PerfilTendero from "../Pages/perfilTendero";
 
 const App = () => {
@@ -25,14 +22,14 @@ const App = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Inicio} />
-    
-        
+
+
 
         <Redirect from="/Inicio" to="/Inicio2" />
         <Route exact path="/inicio2" component={Inicio2} />
         <Route exact path="/inicio3" component={Inicio3} />
-  
-    
+
+
         <Redirect from="/Inicio2" to="/Inicio" />
         <Route exact path="/tendero" component={Tendero} />
         <Route exact path="/cliente" component={Cliente} />

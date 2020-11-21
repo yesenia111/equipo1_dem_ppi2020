@@ -27,7 +27,7 @@ import Reg_log from  "../Components/reg_log.js"
               
 
             <Link to="Cliente">
-
+                <Reg_log />
               </Link>
               <br />
 

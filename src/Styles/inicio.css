@@ -25,3 +25,17 @@
 }
 
 
+.log{
+border-radius: 4px;
+  -webkit-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  -moz-box-shadow: 2.5px 3px 5px 0px rgba(61, 52, 61, 0.45);
+  box-shadow: 2.5px 3px 5px 0px rgba(0, 0, 0, 0.357);
+  border-style: none;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.c{
+
+    max-width: 80%;
+}

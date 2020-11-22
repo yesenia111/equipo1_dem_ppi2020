@@ -8,9 +8,8 @@ class AtrasTendero extends React.Component {
       <a href="/tendero">
       <img
         src={atras}
-        class=" himg"
-        alt="imagen
-      "
+        className=" himg"
+        alt="imagen"
       />
     </a>
   </div>

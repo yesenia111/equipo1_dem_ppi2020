@@ -11,7 +11,7 @@ export default function registrarEst(){
 }
 
   const register = () => {
-    Axios.post("https://jmo9r.sse.codesandbox.io/api/registroUsuario", {      
+    Axios.post("https://tienda-ahorro-backend.herokuapp.com/api/registroUsuario", {      
       CorreoElectronico: correoElectronicoReg,
       Nombre: nombreReg,
       Contrasena: sha1(contrasenaReg)

@@ -20,11 +20,11 @@ import estilo from "../Styles/inicio.css";
 
              
               <br />
-              
+              <Link to="accederC">
           <button  type="button" className="bot btn btn-ligh">
                 Iniciar sesión
               </button>
-             
+              </Link>
               
               <br />
               <Link to="registroC">

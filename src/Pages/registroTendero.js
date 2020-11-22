@@ -1,8 +1,8 @@
-import React from "react";
+import React, {Component} from "react";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../Images/Logo.png";
-
 import estilo from "../Styles/inicio.css";
+ 
 
 class RegistroT extends React.Component {
   render() {
@@ -18,28 +18,21 @@ class RegistroT extends React.Component {
 
               <form>
                 <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputAddress2">Nombre</label>
+                  <div class="form-group col-md-12">
+                    <label for="inputAddress2">Nombre completo</label>
                     <input
                       type="text"
                       class="form-control"
                       placeholder="Nombre"
                     />
                   </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputAddress2">apellido</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Apellido"
-                    />
-                  </div>
+                 
 
-                  <div class="form-group col-md-6">
+                  <div class="form-group col-md-12">
                     <label for="inputEmail4">Email</label>
                     <input type="email" class="form-control" id="inputEmail4" />
                   </div>
-                  <div class="form-group col-md-6">
+                  <div class="form-group col-md-12">
                     <label for="inputPassword4">Contraseña</label>
                     <input
                       type="password"
@@ -48,26 +41,7 @@ class RegistroT extends React.Component {
                     />
                   </div>
                 </div>
-                <div class="form-group">
-                  <label for="inputAddress">Dirección</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputAddress"
-                    placeholder="Ej. calle 1 a # 45c 2"
-                  />
-                </div>
-
-                <div class="form-group">
-                    <label for="inputAddress2">Nombre del local</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Nombre establecimiento"
-                    />
-                  </div>
-
-              
+                   
 
                 <button type="submit" class="btn btn-primary">
                   Registrarse
@@ -89,3 +63,5 @@ class RegistroT extends React.Component {
 }
 
 export default RegistroT;
+
+

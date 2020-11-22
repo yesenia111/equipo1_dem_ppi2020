@@ -10,15 +10,15 @@ class EditarProductos extends React.Component {
       <div className="container-fluid">
         <div className="row">
           <div className=" col-sm-12 col-md-12 col-lg-12 ">
-            <div class="card">
-              <div class="card-body">
-                <img src={monster} class="d-block w-100" alt="..." />
+            <div className="card">
+              <div className="card-body">
+                <img src={monster} className="d-block w-100" alt="..." />
                 
-                <p class="card-text">
+                <p className="card-text">
                 Bebida energética
                 
                 <Link to="editar">              
-                  <img src={editar} class="d-block añadir" alt="..." /> 
+                  <img src={editar} className="d-block añadir" alt="..." /> 
                 </Link>
                
                 </p>

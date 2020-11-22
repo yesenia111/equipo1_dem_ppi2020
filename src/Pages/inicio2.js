@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logo.png";
 import estilo from "../Styles/inicio.css";
-import Reg_log from  "../Components/reg_log.js"
+
 
  
  function Inicio2()  {
@@ -16,16 +16,22 @@ import Reg_log from  "../Components/reg_log.js"
 
             <div className="col-sm-4 col-md-4 col-lg-6">
               <img src={Logo} className="logo" alt="Logo" />
-              <p>¿Cómo quieres iniciar sesión?</p>
+              <p>¿Qué quieres hacer?</p>
 
              
               <br />
-          
+              
+          <button  type="button" className="bot btn btn-ligh">
+                Iniciar sesión
+              </button>
              
               
               <br />
-              
-
+              <Link to="registroC">
+<button  type="button" className="bot btn btn-ligh">
+                Registrarse
+              </button>
+              </Link>
            
                
               

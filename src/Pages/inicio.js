@@ -37,6 +37,12 @@ class Inicio extends React.Component {
               </Link>
               <br />
 
+              <Link to="/registro">
+                <button type="button" className="bot btn btn-ligh">
+                  Registrarse
+                </button>
+              </Link>
+
             </div>
 
             <div className="col-sm-4 col-md-4 col-lg-3 "></div>

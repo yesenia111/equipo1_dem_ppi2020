@@ -13,14 +13,16 @@ class Inicio3 extends React.Component {
 
             <div className="col-sm-4 col-md-4 col-lg-6">
               <img src={Logo} class="logo" alt="Logo" />
-              <p>¿Cómo quieres iniciar sesión?</p>
+              <p>¿Qué quieres hacer?</p>
 
-              <div className="g-signin2 btn" data-onsuccess="onSignIn"></div>
+              <button  type="button" className="bot btn btn-ligh">
+                Iniciar sesión
+              </button>
               <br />
 
-              <Link to="/tendero">
+              <Link to="registroT">
                 <button type="button" className="bot btn btn-ligh">
-                  Facebook
+                 Registrarse
                 </button>
               </Link>
               

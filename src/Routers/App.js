@@ -13,9 +13,14 @@ import PerfilAnonimo from "../Pages/perfilAnonimo";
 import editar from "../Pages/editar";
 import Confirmar from "../Pages/confirmarDatos";
 import Realizado from "../Pages/realizado";
-
+import Registro from "../Pages/registro";
+import RegistroC from "../Pages/registroCliente";
+import RegistroT from "../Pages/registroTendero";
 import ModificarProductos from "../Pages/modificarProductos";
 import PerfilTendero from "../Pages/perfilTendero";
+import Product from "../Pages/prod"; 
+
+
 
 const App = () => {
   return (
@@ -28,6 +33,9 @@ const App = () => {
         <Redirect from="/Inicio" to="/Inicio2" />
         <Route exact path="/inicio2" component={Inicio2} />
         <Route exact path="/inicio3" component={Inicio3} />
+        <Route exact path="/registro" component={Registro} />
+        <Route exact path="/registroT" component={RegistroT} />
+        <Route exact path="/registroC" component={RegistroC} />
 
 
         <Redirect from="/Inicio2" to="/Inicio" />
@@ -43,6 +51,7 @@ const App = () => {
         <Route exact path="/perfilTendero" component={PerfilTendero} />
         <Route exact path="/editar" component={editar} />
         <Route exact path="/modificarProductos" component={ModificarProductos} />
+        <Route exact path="/prod" component={Product} />
       </Switch>
     </BrowserRouter>
   );

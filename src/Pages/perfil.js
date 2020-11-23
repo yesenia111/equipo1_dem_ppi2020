@@ -70,12 +70,7 @@ class Perfil extends React.Component {
                 <br />
                 <center>
          
-                  <Link to="/">
-                    {" "}
-                    <button type="button" class="btn" id="cerrar">
-                      cerrar sesión
-                    </button>{" "}
-                  </Link>
+                <a href="/" onClick="signOut();">Salir</a>
                 </center>
                 <hr />
                

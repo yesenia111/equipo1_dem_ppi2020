@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
 
-  <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
@@ -14,16 +14,16 @@
 
   <title>Tienda Ahorro</title>
 
-  <!-- <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
 
   <meta name="google-signin-client_id"
     content="380839794363-0247kc50kblbtuhl651fvogfls165orb.apps.googleusercontent.com">
- -->
+
 
 </head>
 
 <body>
-  <!-- <script>
+  <script>
     function onSignIn(googleUser) {
       var profile = googleUser.getBasicProfile();
       console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
@@ -40,11 +40,47 @@
         console.log('User signed out.');
       });
     }
-  </script>-->
+  </script>
+
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: '1302080020250038',
+        cookie: true,
+        xfbml: true,
+        version: 'v9.0'
+      });
+
+      FB.AppEvents.logPageView();
+
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) { return; }
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    function onLogin() {
+      FB.login((response) => {
+        if (response.authResponse){
+          FB.api('/Inicio2?fields=email,name, picture', (response)=>
+          console.log(response)
+           )
+        }
+        
+     }
+    }
+
+
+  </script>
+
 
 
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div> 
+  <div id="root"></div>
 </body>
 
 </html>

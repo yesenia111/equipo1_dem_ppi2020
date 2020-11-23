@@ -1,5 +1,5 @@
 import React from "react";
-import NavA from "../Components/navA";
+import Nav from "../Components/nav";
 import usuario from "../Images/usuarioAnonimo.jpeg";
 import Menu from "../Components/menu";
 import { Link, NavLink } from "react-router-dom";
@@ -13,7 +13,7 @@ class PerfilAnonimo extends React.Component {
         <div className="row">
           <div className="h col-sm-12 col-md-12 col-lg-12 ">
             <header className="head">
-<NavA/>
+<Nav/>
             </header>
           </div>
 

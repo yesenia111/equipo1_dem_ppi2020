@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logo.png";
+import datos from "../Server/datos.json";
 import estilo from "../Styles/inicio.css";
 
 class Inicio3 extends React.Component {
@@ -13,18 +14,16 @@ class Inicio3 extends React.Component {
 
             <div className="col-sm-4 col-md-4 col-lg-6">
               <img src={Logo} class="logo" alt="Logo" />
-              <p>¿Qué quieres hacer?</p>
+              <p>¿Cómo quieres iniciar sesión?</p>
 
-                 <Link to="accederC">
-              <button  type="button" className="bot btn btn-ligh">
-                Iniciar sesión
-              </button>
-              </Link>
+              <button type="button" className="bot btn btn-ligh">
+                  Google
+                </button>
               <br />
 
-              <Link to="registroT">
+              <Link to="/tendero">
                 <button type="button" className="bot btn btn-ligh">
-                 Registrarse
+                  Facebook
                 </button>
               </Link>
               

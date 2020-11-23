@@ -5,6 +5,7 @@ import Menu from "../Components/menuTendero";
 import Reporte from "../Components/reporte";
 import Historial from "../Components/historialTendero";
 import { Link, NavLink } from "react-router-dom";
+import perfil from "../Styles/Perfil.css";
 import AtrasTendero from "../Components/atrasTendero"
 
 class PerfilTendero extends React.Component {

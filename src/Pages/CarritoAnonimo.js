@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
-import NavA from "../Components/navA";
+import Nav from "../Components/nav";
 import carritoStyle from "../Styles/carritoStyle.css";
 import estiloa from "../Styles/anonimo.css"
 import MenuAnonimo from "../Components/menuAnonimo";
@@ -13,7 +13,7 @@ class  carritoA extends React.Component {
       <div className="row">
         <div className="h col-sm-12 col-md-12 col-lg-12 ">
           <header className="head">
-            <NavA />
+            <Nav />
           </header>
         </div>
 

@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logo.png";
+import datos from "../Server/datos.json";
 import estilo from "../Styles/inicio.css";
 
 
- 
- function Inicio2()  {
+class Inicio2 extends React.Component {
   
 
+  render() {
     return (
       <div className="Inicio">
         <div className="container-fluid">
@@ -16,25 +17,23 @@ import estilo from "../Styles/inicio.css";
 
             <div className="col-sm-4 col-md-4 col-lg-6">
               <img src={Logo} className="logo" alt="Logo" />
-              <p>¿Qué quieres hacer?</p>
+              <p>¿Cómo quieres iniciar sesión?</p>
 
+              <button  type="button" className="bot btn btn-ligh">
+                Google
+              </button>
+              <br />
+          
              
-              <br />
-              <Link to="accederC">
-          <button  type="button" className="bot btn btn-ligh">
-                Iniciar sesión
-              </button>
-              </Link>
               
               <br />
-              <Link to="registroC">
-<button  type="button" className="bot btn btn-ligh">
-                Registrarse
+              
+
+            <Link to="Cliente">
+              <button  type="button" className="bot btn btn-ligh">
+                Facebook
               </button>
               </Link>
-           
-               
-              
               <br />
 
             
@@ -47,6 +46,6 @@ import estilo from "../Styles/inicio.css";
         </div>
       </div>
     );
+  }
 }
-
 export default Inicio2;

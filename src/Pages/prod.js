@@ -8,7 +8,7 @@ class Product extends React.Component{
     nameProd:[]
   }
   componentDidMount(){
-    axios.get('https://tienda-ahorro-backend.herokuapp.com/api/Productos')
+    axios.get('https://jmo9r.sse.codesandbox.io/api/Productos')
    .then((res) => {
      const nameProd=res.data;
       this.setState({

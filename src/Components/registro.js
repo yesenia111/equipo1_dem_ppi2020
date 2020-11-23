@@ -1,28 +1,30 @@
 import React, {useState} from "react";
 import Axios from "axios";
-import sha1 from "sha1";
 
-export default function registrarEst(){
+
+
+export default function Registration() {
   const [correoElectronicoReg, setCorreoElectronicoReg] = useState("");
   const [contrasenaReg, setContrasenaReg] = useState("");
   const [nombreReg, setNombreReg]=useState("")
 
- 
-}
+
 
   const register = () => {
-    Axios.post("https://tienda-ahorro-backend.herokuapp.com/api/registroUsuario", {      
+    Axios.post("https://jmo9r.sse.codesandbox.io/api/registroUsuario", {      
       CorreoElectronico: correoElectronicoReg,
       Nombre: nombreReg,
-      Contrasena: sha1(contrasenaReg)
+      Contrasena: contrasenaReg
        
     }).then((response) => {
       console.log(response.data);
     });
   }
 
+
+
   return (
-  <div className="App">
+    <div className="App">
       <div className="registration">
         <h1>Registro</h1>
         <label>Correo electronico</label>
@@ -43,12 +45,14 @@ export default function registrarEst(){
         <input
           type="text"
           onChange={(e) => {
-            setContraseñaReg(e.target.value);
+            setContrasenaReg(e.target.value);
           }}
         />
+
         <button onClick={register}> Registrar </button>
       </div>
-     </div> 
+
+    </div>
   );
 }
 

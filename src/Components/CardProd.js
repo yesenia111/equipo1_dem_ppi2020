@@ -1,16 +1,13 @@
 import React from "react";
-import {Card,CardMedia,CardContent,Typography} from "@material-iu/core"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function CardProd(props){
   return(
-    <Card>
-      <CardMedia/>
-      <CardContent>
-        <Typography>
-         Nombre product
-         </Typography>
-      </CardContent>   
-    </Card>
+    <div class="card">
+      <div class="card-body">
+       {}
+      </div>
+    </div>
   );
 }
 

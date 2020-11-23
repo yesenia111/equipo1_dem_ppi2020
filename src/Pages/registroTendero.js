@@ -1,10 +1,10 @@
 import React, {Component} from "react";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../Images/Logo.png";
-import estilo from "../Styles/inicio.css";
+
  
 
-class RegistroT extends React.Component {
+class RegistroT extends Component {
   render() {
     return (
       <div className="Inicio">

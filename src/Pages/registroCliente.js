@@ -2,11 +2,15 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../Images/Logo.png";
 import estilo from "../Styles/inicio.css";
+import Register from "../Components/registro";
 
 class RegistroC extends React.Component {
   render() {
     return (
-      <div className="Inicio">
+
+<Register/>
+
+     /* <div className="Inicio">
         <div className="container-fluid ">
           <div className="row">
             <div className="col-sm-12 col-md-4 col-lg-3"> </div>
@@ -30,6 +34,7 @@ class RegistroC extends React.Component {
                       class="form-control"
                       placeholder="Nombre"
                     />
+                    
                   </div>
                   <div class="form-group col-md-6">
                     <label for="inputPassword4">Contraseña</label>
@@ -42,10 +47,6 @@ class RegistroC extends React.Component {
                 </div>
                
               
-
-                <button type="submit" class="btn btn-primary">
-                  Registrarse
-                </button>
               </form>
 
               <br />
@@ -57,7 +58,7 @@ class RegistroC extends React.Component {
             <div className="col-sm-4 col-md-4 col-lg-3 "></div>
           </div>
         </div>
-      </div>
+      </div>*/
     );
   }
 }

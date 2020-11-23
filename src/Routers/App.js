@@ -18,9 +18,11 @@ import RegistroC from "../Pages/registroCliente";
 import RegistroT from "../Pages/registroTendero";
 import ModificarProductos from "../Pages/modificarProductos";
 import PerfilTendero from "../Pages/perfilTendero";
-import Product from "../Pages/prod"; 
 import AccederT from "../Pages/accederT";
 import AccederC from "../Pages/accederC";
+
+import Product from "../Pages/prod"; 
+import Productos from "../Components/productos";
 
 
 
@@ -55,7 +57,11 @@ const App = () => {
         <Route exact path="/perfilTendero" component={PerfilTendero} />
         <Route exact path="/editar" component={editar} />
         <Route exact path="/modificarProductos" component={ModificarProductos} />
+
         <Route exact path="/prod" component={Product} />
+        <Route exact path="/prodPrueba" component={Productos} />
+        <Route exact path="/prod" component={Product} />
+
       </Switch>
     </BrowserRouter>
   );
